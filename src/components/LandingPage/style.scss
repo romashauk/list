@@ -1,0 +1,20 @@
+.landing {
+  display: flex;
+  justify-content: center;
+  padding-top: 63px;
+  &-dropdowns_container {
+    cursor: pointer;
+  }
+  &-container {
+    background: #ffffff;
+    width: 50%;
+    box-shadow: 0 0 5px rgb(211, 204, 204);
+  }
+  &-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 1px solid #e6e4e4;
+  }
+}
